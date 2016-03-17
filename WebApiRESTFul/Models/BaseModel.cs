@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace DAL.Entities
+namespace WebApiRESTFul.Models
 {
-    public abstract class BaseEntity
+    public class BaseModel
     {
         public Guid ID { get; set; }
         public DateTime CreatedDate { get; set; }
